@@ -208,7 +208,7 @@ img {
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
