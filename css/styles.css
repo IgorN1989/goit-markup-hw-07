@@ -327,18 +327,18 @@
 
 /* Specifications */
 
-.specifications-list {
+.specifications__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.specifications-item {
+.specifications__item {
   width: 370px;
   position: relative;
 }
 
-.specifications-title {
+.specifications__title {
   position: absolute;
   bottom: 0;
 
@@ -350,7 +350,6 @@
 
   font-weight: 700;
   line-height: calc(16 / 14);
-  /* text-align: center; */
   text-transform: uppercase;
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);
