@@ -433,14 +433,14 @@
 
 /* Clients */
 
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -453,13 +453,13 @@
   outline: none;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.clients-logo {
+.clients__logo {
   fill: currentColor;
 }
 
@@ -475,12 +475,12 @@
   padding-left: 0;
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-address {
+.footer__address {
   margin-right: 70px;
 }
 
@@ -493,7 +493,7 @@
   color: var(--primary-white-color);
 }
 
-.address-item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
