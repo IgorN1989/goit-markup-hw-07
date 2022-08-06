@@ -497,7 +497,7 @@
   margin-bottom: 9px;
 }
 
-.address-geo {
+.address__geotag {
   color: var(--primary-white-color);
   line-height: calc(24 / 14);
   font-style: normal;
@@ -505,8 +505,8 @@
   transition: color var(--primary-transition);
 }
 
-.email,
-.number {
+.address__email,
+.address__tel {
   color: var(--footer-contacts-color);
   line-height: calc(24 / 14);
   font-style: normal;
@@ -514,12 +514,12 @@
   transition: color var(--primary-transition);
 }
 
-.address-geo:hover,
-.address-geo:focus,
-.email:hover,
-.email:focus,
-.number:hover,
-.number:focus {
+.address__geotag:hover,
+.address__geotag:focus,
+.address__email:hover,
+.address__email:focus,
+.address__tel:hover,
+.address__tel:focus {
   color: var(--accent-color);
   /* на макеті не зазначено на який колір повині змінюватися контакти */
 }
