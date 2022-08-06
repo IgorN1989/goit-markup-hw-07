@@ -15,7 +15,7 @@
   --button-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-body {
+.body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: var(--main-font);
@@ -29,12 +29,12 @@ body {
 
 /* Local reset styles */
 
-a {
+.link {
   text-decoration: none;
   color: currentColor;
 }
 
-ul {
+.list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -70,12 +70,12 @@ img {
   padding-left: 15px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-nav {
+.nav {
   display: flex;
   align-items: center;
   margin-right: auto;
@@ -91,18 +91,15 @@ img {
   line-height: calc(31 / 26);
 }
 
-.header-logo {
+.header__logo {
   display: inline-block;
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.black-logo {
-  color: var(--primary-black-color);
-}
 
-.white-logo {
-  color: var(--primary-white-color);
+.header__logo--black {
+  color: var(--primary-black-color);
 }
 
 /* Navigation */
@@ -112,15 +109,11 @@ img {
   align-items: center;
 }
 
-.nav-list .current {
-  color: var(--accent-color);
-}
-
-.nav-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-link {
+.nav-list__link {
   position: relative;
 
   display: block;
@@ -135,12 +128,16 @@ img {
   transition: color var(--primary-transition);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-list__link:hover,
+.nav-list__link:focus {
   color: var(--accent-color);
 }
 
-.current::after {
+.nav-list__link--current {
+  color: var(--accent-color);
+}
+
+.nav-list__link--current::after {
   content: '';
 
   position: absolute;
@@ -160,11 +157,11 @@ img {
   display: flex;
 }
 
-.contacts-item:not(:last-child) {
+.contacts-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts-link {
+.contacts-list__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -178,13 +175,13 @@ img {
   transition: color var(--primary-transition);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-list__link:hover,
+.contacts-list__link:focus {
   color: var(--accent-color);
 }
 
-.contacts-mail,
-.contacts-tel {
+.contacts-list__mail,
+.contacts-list__tel {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -493,9 +490,13 @@ img {
   margin-right: 70px;
 }
 
-.footer-logo {
+.footer__logo {
   display: inline-block;
   margin-bottom: 20px;
+}
+
+.footer__logo--white {
+  color: var(--primary-white-color);
 }
 
 .address-item:not(:last-child) {

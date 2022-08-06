@@ -24,33 +24,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
-  <body data-page>
+  <body class="body" data-page>
     <!-- Header section -->
     <header class="header">
-      <div class="container header-container">
-        <nav class="header-nav">
-          <a class="logo header-logo" href="./index.html"
-            >Web<span class="black-logo">Studio</span></a
+      <div class="container header__container">
+        <nav class="nav">
+          <a class="link logo header__logo" href="./index.html"
+            >Web<span class="header__logo--black">Studio</span></a
           >
-          <ul class="nav-list list">
-            <li class="nav-item"><a class="nav-link current" href="./index.html">Студія</a></li>
-            <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
+          <ul class="list nav-list">
+            <li class="nav-list__item">
+              <a class="link nav-list__link nav-list__link--current" href="./index.html">Студія</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="link nav-list__link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav-list__item"><a class="link nav-list__link" href="#">Контакти</a></li>
           </ul>
         </nav>
 
-        <ul class="contacts-list list">
-          <li class="contacts-item">
-            <a class="contacts-link" href="mailto:info@devstudio.com">
-              <svg class="contacts-mail" width="16" height="12">
+        <ul class="list contacts-list">
+          <li class="contacts-list__item">
+            <a class="link contacts-list__link" href="mailto:info@devstudio.com">
+              <svg class="contacts-list__mail" width="16" height="12">
                 <use href="./images/icons/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contacts-item">
-            <a class="contacts-link" href="tel:+380961111111">
-              <svg class="contacts-tel" width="10" height="16">
+          <li class="contacts-list__item">
+            <a class="link contacts-list__link" href="tel:+380961111111">
+              <svg class="contacts-list__tel" width="10" height="16">
                 <use href="./images/icons/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -74,7 +78,7 @@
       <section class="features section">
         <div class="container">
           <h2 class="section-title visually-hidden">Особливості</h2>
-          <ul class="features-list list">
+          <ul class="list features-list">
             <li class="features-item">
               <svg class="features-icon" width="270" height="120">
                 <use href="./images/icons/sprite.svg#icon-antenna"></use>
@@ -118,7 +122,7 @@
       <section class="specifications section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="specifications-list list">
+          <ul class="list specifications-list">
             <li class="specifications-item">
               <img
                 src="./images/services/programming.jpg"
@@ -148,16 +152,16 @@
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team-list list">
+          <ul class="list team-list">
             <li class="teammate">
               <img src="./images/team/photo1.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
               <div class="teammate-description">
                 <h3 class="teammate-title">Ігор Дем'яненко</h3>
                 <p class="teammate-position" lang="en">Product Designer</p>
-                <ul class="socials list">
+                <ul class="list socials">
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -170,7 +174,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -183,7 +187,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -196,7 +200,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -214,10 +218,10 @@
               <div class="teammate-description">
                 <h3 class="teammate-title">Ольга Репіна</h3>
                 <p class="teammate-position" lang="en">Frontend Developer</p>
-                <ul class="socials list">
+                <ul class="list socials">
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -230,7 +234,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -243,7 +247,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -256,7 +260,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -274,10 +278,10 @@
               <div class="teammate-description">
                 <h3 class="teammate-title">Микола Тарасов</h3>
                 <p class="teammate-position" lang="en">Marketing</p>
-                <ul class="socials list">
+                <ul class="list socials">
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -290,7 +294,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -303,7 +307,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -316,7 +320,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -334,10 +338,10 @@
               <div class="teammate-description">
                 <h3 class="teammate-title">Михайло Єрмаков</h3>
                 <p class="teammate-position" lang="en">UI Designer</p>
-                <ul class="socials list">
+                <ul class="list socials">
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -350,7 +354,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -363,7 +367,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -376,7 +380,7 @@
                   </li>
                   <li class="socials-item">
                     <a
-                      class="socials-link link"
+                      class="link socials-link"
                       href="#"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -396,10 +400,10 @@
       <section class="section clients">
         <div class="container">
           <h2 class="section-title">Постійні клієнти</h2>
-          <ul class="clients-list list">
+          <ul class="list clients-list">
             <li class="clients-item">
               <a
-                class="clients-link link"
+                class="link clients-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -412,7 +416,7 @@
             </li>
             <li class="clients-item">
               <a
-                class="clients-link link"
+                class="link clients-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -425,7 +429,7 @@
             </li>
             <li class="clients-item">
               <a
-                class="clients-link link"
+                class="link clients-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -438,7 +442,7 @@
             </li>
             <li class="clients-item">
               <a
-                class="clients-link link"
+                class="link clients-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -451,7 +455,7 @@
             </li>
             <li class="clients-item">
               <a
-                class="clients-link link"
+                class="link clients-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -464,7 +468,7 @@
             </li>
             <li class="clients-item">
               <a
-                class="clients-link link"
+                class="link clients-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -484,14 +488,14 @@
       <div class="footer-container container">
         <h2 class="section-title visually-hidden">Зв'язатися з нами</h2>
         <div class="footer-address">
-          <a class="footer-logo logo" href="./index.html"
-            >Web<span class="white-logo">Studio</span></a
+          <a class="link logo footer__logo" href="./index.html"
+            >Web<span class="footer__logo--white">Studio</span></a
           >
           <address class="address">
-            <ul class="address-list list">
+            <ul class="list address-list">
               <li class="address-item">
                 <a
-                  class="address-geo"
+                  class="link address-geo"
                   href="https://goo.gl/maps/RaLyi4AFMYMuKomp6"
                   target="_blank"
                   rel="nofollow noreferrer noopener"
@@ -499,20 +503,20 @@
                 </a>
               </li>
               <li class="address-item">
-                <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link email" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="address-item">
-                <a class="number" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link number" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer-socials">
           <p class="footer-title">приєднуйтесь</p>
-          <ul class="socials list">
+          <ul class="list socials">
             <li class="socials-item">
               <a
-                class="socials-link link"
+                class="link socials-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -525,7 +529,7 @@
             </li>
             <li class="socials-item">
               <a
-                class="socials-link link"
+                class="link socials-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -538,7 +542,7 @@
             </li>
             <li class="socials-item">
               <a
-                class="socials-link link"
+                class="link socials-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -551,7 +555,7 @@
             </li>
             <li class="socials-item">
               <a
-                class="socials-link link"
+                class="link socials-link"
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -665,7 +669,8 @@
               <use class="checkbox-icon-checked" href="./images/icons/sprite.svg#icon-check"></use>
             </svg>
             <span class="checkbox-text"
-              >Погоджуюся з розсилкою та приймаю <a class="terms" href="">Умови договору</a></span
+              >Погоджуюся з розсилкою та приймаю
+              <a class="link terms" href="">Умови договору</a></span
             ></label
           >
 
