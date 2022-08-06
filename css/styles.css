@@ -524,11 +524,11 @@
   /* на макеті не зазначено на який колір повині змінюватися контакти */
 }
 
-.footer-socials {
+.footer__socials {
   margin-right: 93px;
 }
 
-.footer-title {
+.footer__title {
   display: block;
   margin-bottom: 20px;
   font-size: 14px;
@@ -538,13 +538,13 @@
   line-height: calc(16 / 14);
 }
 
-.footer-socials .socials-link {
+.socials__link--gray {
   color: var(--primary-white-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-socials .socials-link:hover,
-.footer-socials .socials-link:focus {
+.socials__link--gray:hover,
+.socials__link--gray:focus {
   background-color: var(--accent-color);
 }
 
