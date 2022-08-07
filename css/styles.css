@@ -611,17 +611,17 @@
 
 /* Filter */
 
-.filter-list {
+.filter__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.filter-item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filter-button {
+.filter__button {
   display: inline-flex;
   padding-top: 6px;
   padding-right: 22px;
@@ -643,9 +643,9 @@
     box-shadow var(--primary-transition);
 }
 
-.filter-button:hover,
-.filter-button:focus,
-.filter-button:active {
+.filter__button:hover,
+.filter__button:focus,
+.filter__button:active {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -654,17 +654,17 @@
 
 /* Examples */
 
-.example-list {
+.examples__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.example-item {
+.examples__item {
   width: 370px;
 }
 
-.example-link {
+.examples__link {
   display: block;
   cursor: pointer;
   outline: none;
@@ -673,18 +673,18 @@
   transition: box-shadow var(--primary-transition);
 }
 
-.example-link:hover,
-.example-link:focus {
+.examples__link:hover,
+.examples__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.example-thumb {
+.examples__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.example-overlay {
+.examples__overlay {
   position: absolute;
   top: 100%;
   left: 0;
@@ -699,12 +699,12 @@
   transition: transform var(--primary-transition);
 }
 
-.example-link:hover .example-overlay,
-.example-link:focus .example-overlay {
+.examples__link:hover .examples__overlay,
+.examples__link:focus .examples__overlay {
   transform: translateY(-100%);
 }
 
-.example-text {
+.examples__text {
   padding-top: 63px;
   padding-right: 24px;
   padding-bottom: 63px;
@@ -718,7 +718,7 @@
   color: var(--primary-white-color);
 }
 
-.example-description {
+.examples__description {
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
@@ -727,7 +727,7 @@
   border-top: 0;
 }
 
-.example-title {
+.examples__title {
   margin-bottom: 4px;
 
   font-size: 18px;
@@ -735,7 +735,7 @@
   color: var(--title-text-color);
 }
 
-.example-type {
+.examples__type {
   font-size: 16px;
   line-height: calc(30 / 16);
 }
