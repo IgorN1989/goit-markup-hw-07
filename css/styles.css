@@ -49,6 +49,12 @@
   display: block;
 }
 
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+}
+
 /* ========== Header ========== */
 
 .header {
@@ -214,12 +220,6 @@
 }
 
 /* Buttons */
-
-.button {
-  cursor: pointer;
-  font-family: inherit;
-  text-align: center;
-}
 
 .order-button {
   display: inline-flex;
