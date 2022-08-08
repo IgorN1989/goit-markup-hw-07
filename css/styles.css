@@ -543,11 +543,6 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.socials__link--gray:hover,
-.socials__link--gray:focus {
-  background-color: var(--accent-color);
-}
-
 .subscribe__input {
   width: 358px;
   height: 50px;
@@ -806,14 +801,14 @@
   border-radius: 50%;
 }
 
-.close-button--black {
+.close-button__icon {
   display: block;
   fill: var(--primary-black-color);
   transition: fill var(--primary-transition);
 }
 
-.close-button--black:hover,
-.close-button--black:focus {
+.close-button__icon:hover,
+.close-button__icon:focus {
   fill: var(--accent-color);
 }
 
