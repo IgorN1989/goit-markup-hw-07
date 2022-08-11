@@ -464,7 +464,7 @@
 
 /* ========== Footer ========== */
 
-.footer {
+/* .footer {
   margin-right: auto;
   margin-left: auto;
   background-color: var(--footer-background-color);
@@ -490,9 +490,9 @@
 
 .footer__logo--white {
   color: var(--primary-white-color);
-}
+} */
 
-.address__item:not(:last-child) {
+/* .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -504,8 +504,7 @@
   transition: color var(--primary-transition);
 }
 
-.address__email,
-.address__tel {
+.address__link {
   color: var(--footer-contacts-color);
   line-height: calc(24 / 14);
   font-style: normal;
@@ -515,20 +514,18 @@
 
 .address__geotag:hover,
 .address__geotag:focus,
-.address__email:hover,
-.address__email:focus,
-.address__tel:hover,
-.address__tel:focus {
+.address__link:hover,
+.address__link:focus {
   color: var(--accent-color);
-  /* на макеті не зазначено на який колір повині змінюватися контакти */
-}
+  /* на макеті не зазначено на який колір повині змінюватися контакти 
+} */
 
-.footer__socials {
+/* .footer__socials {
   margin-right: 93px;
 }
 
-/* .footer__title {
-  display: block;
+.footer__title {
+  display: block; 
   margin-bottom: 20px;
   font-size: 14px;
   font-weight: 700;
@@ -537,12 +534,12 @@
   line-height: calc(16 / 14);
 } */
 
-.socials__link--gray {
+/* .socials__link--gray {
   color: var(--primary-white-color);
   background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
-.subscribe__input {
+/* .subscribe__input {
   width: 358px;
   height: 50px;
   align-items: center;
@@ -561,7 +558,7 @@
 
 .subscribe__input::placeholder {
   color: var(--footer-contacts-color);
-}
+} */
 
 /* .subscribe__button {
   display: inline-flex;
@@ -590,13 +587,13 @@
   background-color: var(--order-button-color);
 } */
 
-.subscribe__text {
+/* .subscribe__text {
   margin-right: 10px;
 }
 
 .subscribe__icon {
   fill: var(--primary-white-color);
-}
+} */
 
 
 /* ======================================== */
@@ -605,7 +602,7 @@
 
 /* Filter */
 
-.filter__list {
+/* .filter__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -644,11 +641,11 @@
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Examples */
 
-.examples__list {
+/* .examples__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -721,18 +718,18 @@
   border-top: 0;
 }
 
-/* .examples__title {
+.examples__title {
   margin-bottom: 4px;
 
   font-size: 18px;
   line-height: calc(36 / 18);
   color: var(--title-text-color);
-} */
+}
 
 .examples__type {
   font-size: 16px;
   line-height: calc(30 / 16);
-}
+} */
 
 /* ======================================== */
 /*                Modal window              */
