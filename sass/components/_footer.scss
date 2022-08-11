@@ -1,27 +1,26 @@
 .footer {
-    margin-right: auto;
-    margin-left: auto;
-    background-color: var(--footer-background-color);
-    padding-top: 60px;
-    padding-right: 0px;
-    padding-bottom: 60px;
-    padding-left: 0;
-}
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--footer-background-color);
+  padding-top: 60px;
+  padding-right: 0px;
+  padding-bottom: 60px;
+  padding-left: 0;
 
-.footer__container {
+  &__container {
     display: flex;
     align-items: baseline;
-}
+  }
 
-.footer__address {
+  &__address {
     margin-right: 70px;
-}
+  }
 
-.footer__socials {
+  &__socials {
     margin-right: 93px;
-}
+  }
 
-.footer__title {
+  &__title {
     display: block;
     margin-bottom: 20px;
     font-size: 14px;
@@ -29,4 +28,5 @@
     color: var(--primary-white-color);
     text-transform: uppercase;
     line-height: calc(16 / 14);
+  }
 }
