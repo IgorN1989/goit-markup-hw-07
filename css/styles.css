@@ -734,7 +734,7 @@
 /* ======================================== */
 /*                Modal window              */
 /* ======================================== */
-
+/* 
 .backdrop {
   position: fixed;
   top: 0;
@@ -754,9 +754,9 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
+} */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -778,9 +778,9 @@
   perspective: 10px;
   transform: translate(-50%, -50%) scale(0);
   background-color: var(--accent-color);
-}
+} */
 
-.close-button {
+/* .close-button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -806,13 +806,13 @@
 .close-button__icon:hover,
 .close-button__icon:focus {
   fill: var(--accent-color);
-}
+} */
 
-.form {
+/* .form {
   text-align: center;
 }
 
-/* .form__title {
+.form__title {
   display: block;
   margin-bottom: 12px;
 
@@ -820,7 +820,7 @@
   line-height: calc(23 / 20);
   text-align: center;
   color: var(--title-text-color);
-} */
+}
 
 .form__group {
   margin-bottom: 20px;
@@ -971,4 +971,4 @@
 }
 
 
-
+ */
