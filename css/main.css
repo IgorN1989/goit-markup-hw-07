@@ -79,7 +79,6 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .section__title {
   margin-bottom: 50px;
   color: var(--title-text-color);
@@ -171,7 +170,7 @@ img {
           align-items: center;
 }
 
-.logo {
+.footer__logo, .header__logo {
   color: var(--accent-color);
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -188,6 +187,15 @@ img {
 
 .header__logo--black {
   color: var(--primary-black-color);
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.footer__logo--white {
+  color: var(--primary-white-color);
 }
 
 .nav {
@@ -541,15 +549,6 @@ img {
 
 .footer__address {
   margin-right: 70px;
-}
-
-.footer__logo {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.footer__logo--white {
-  color: var(--primary-white-color);
 }
 
 .footer__socials {
