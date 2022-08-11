@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -13,9 +13,26 @@
   --secondary-font: Raleway, sans-serif;
   --primary-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --button-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
-body {
+/* Hidden elements */
+
+/* .visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
+
+/* body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   font-family: var(--main-font);
@@ -25,11 +42,11 @@ body {
 
 .no-scroll {
   overflow: hidden;
-}
+} */
 
 /* Local reset styles */
 
-a {
+/* a {
   text-decoration: none;
   color: currentColor;
 }
@@ -46,13 +63,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 img {
   display: block;
-}
+} */
 
-.button {
+/* .button {
   cursor: pointer;
   font-family: inherit;
   text-align: center;
-}
+} */
 
 .container {
   width: 1200px;
@@ -219,7 +236,7 @@ img {
 
 /* Buttons */
 
-.order-button {
+/* .order-button {
   display: inline-flex;
   min-width: 200px;
   padding-top: 10px;
@@ -243,7 +260,7 @@ img {
 .order-button:hover,
 .order-button:focus {
   background-color: var(--order-button-color);
-}
+} */
 
 /* Section */
 
@@ -260,23 +277,6 @@ img {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-}
-
-/* Hidden elements */
-
-.visually-hidden {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 /* Features */
@@ -537,7 +537,7 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.subscribe__input {
+/* .subscribe__input {
   width: 358px;
   height: 50px;
   align-items: center;
@@ -591,7 +591,7 @@ img {
 
 .subscribe__icon {
   fill: var(--primary-white-color);
-}
+} */
 
 
 /* ======================================== */
@@ -600,7 +600,7 @@ img {
 
 /* Filter */
 
-.filter__list {
+/* .filter__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -639,11 +639,11 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Examples */
 
-.examples__list {
+/* .examples__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -727,13 +727,13 @@ img {
 .examples__type {
   font-size: 16px;
   line-height: calc(30 / 16);
-}
+} */
 
 /* ======================================== */
 /*                Modal window              */
 /* ======================================== */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -752,9 +752,9 @@ img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
+} */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -804,9 +804,9 @@ img {
 .close-button__icon:hover,
 .close-button__icon:focus {
   fill: var(--accent-color);
-}
+} */
 
-.form {
+/* .form {
   text-align: center;
 }
 
@@ -966,7 +966,7 @@ img {
 .form__button:hover,
 .form__button:focus {
   background-color: var(--order-button-color);
-}
+} */
 
 
 

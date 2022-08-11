@@ -1,33 +1,26 @@
 // utils styles
 @import './utils/variables';
 @import './utils/visually-hidden';
-// @import './utils/placeholders';
 
 // base styles
 @import './base/base';
 @import './base/reset';
 
 // components styles
-@import './components/containers';
-@import './components/logo';
-@import './components/sections';
 @import './components/buttons';
-@import './components/socials';
+@import './components/order-button';
+@import './components/close-button';
+// @import './components/containers';
+// @import './components/logo';
+// @import './components/sections';
+// @import './components/socials';
+// @import './components/backdrop';
+// @import './components/modal';
+
+
+@import './components/subscribe';
+@import './components/filters';
+@import './components/examples';
 @import './components/backdrop';
 @import './components/modal';
 @import './components/form';
-
-// layout styles
-@import './layout/header';
-@import './layout/nav';
-@import './layout/contacts';
-@import './layout/hero';
-@import './layout/features';
-@import './layout/specifications';
-@import './layout/team';
-@import './layout/clients';
-@import './layout/footer';
-@import './layout/address';
-@import './layout/subscribe';
-@import './layout/filter';
-@import './layout/examples';
